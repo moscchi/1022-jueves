@@ -1,0 +1,27 @@
+{
+  "name": "1022-jueves",
+  "version": "1.0.0",
+  "description": "Repositorio de las clases de la comision 1022 de los jueves backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moscchi/1022-jueves.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moscchi/1022-jueves/issues"
+  },
+  "homepage": "https://github.com/moscchi/1022-jueves#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
