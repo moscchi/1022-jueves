@@ -1,6 +1,6 @@
-const { Schema, default: mongoose } = require("mongoose");
+const { Schema, mongoose } = require("mongoose");
 
-const UsuarioSchema = Schema({
+const UsuarioSchema = new Schema({
     username: {
         type: String,
         required: [true, 'El username es obligatirio'],
