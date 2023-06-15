@@ -11,8 +11,10 @@ const loginController = async (req, res) => {
     if(!user){
         res.json({message: 'Usuario y/o contraseña inválidos.'});
     } else if(user && user.rol === userRoles.ADMIN_ROLE ) {
+        res.cookie("token", tokenAdmin, {maxAge: 90000, secure:false, httpOnly: false})
         res.json({access_token: tokenAdmin});
     } else {
+        res.cookie("token", tokenUser, {maxAge: 90000, secure:false, httpOnly: false})
         res.json({access_token: tokenUser})
     }
 }

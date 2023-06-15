@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/moscchi/1022-jueves#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "dotenv": "^16.1.3",
     "express": "^4.18.2",
     "express-validator": "^7.0.1",
