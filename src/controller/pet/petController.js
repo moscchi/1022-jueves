@@ -12,12 +12,12 @@ const getPetsController = async (req, res) => {
     } */
   const petsMock = [
     {
-      name: "Names",
+      name: "Floffy",
       animal: "Dog",
       createAt: new Date(),
     },
     {
-      name: "Names",
+      name: "Zeus",
       animal: "Dog",
       createAt: new Date(),
     },
